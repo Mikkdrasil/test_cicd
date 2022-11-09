@@ -1,6 +1,6 @@
 import base64
 
-def hello_pubsub(event, context): #noqa
+def main(event, context): #noqa
     """Triggered from a message on a Cloud Pub/Sub topic.
     Args:
          event (dict): Event payload.
