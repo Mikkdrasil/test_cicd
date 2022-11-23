@@ -6,8 +6,8 @@ on:
   push:
     branches : [main]
     paths:
-      - 'gcp_function/main.py' # UPD HERE!
-      - 'gcp_function/requirements.txt' # UPD HERE!
+      - 'new_directory/gcp_function/main.py' # UPD HERE!
+      - 'new_directory/gcp_function/requirements.txt' # UPD HERE!
       - '.github/workflows/deploy_test_gcp_function.yml' # UPD HERE!
 
 jobs:
